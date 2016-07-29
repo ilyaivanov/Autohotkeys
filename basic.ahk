@@ -21,6 +21,6 @@ return
 
 
 ;GoogleSearch
-^F1:: 
+^!F1:: 
 	Run, % "http://www.google.com/search?hl=en&q=" Clipboard
 return
