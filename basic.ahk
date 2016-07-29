@@ -19,3 +19,8 @@ FormatTime, CurrentDateTime,, HH:mm:ss dddd
 SendInput %CurrentDateTime%
 return
 
+
+;GoogleSearch
+^F1:: 
+	Run, % "http://www.google.com/search?hl=en&q=" Clipboard
+return
